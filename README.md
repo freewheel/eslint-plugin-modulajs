@@ -1,6 +1,9 @@
 # eslint-plugin-modulajs
 
 [![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coverage-image]][coverage-url]
+[![Node version][node-image]][node-url]
 [![Apache V2 License][apache-2.0]](LICENSE)
 
 This plugin contains any custom eslint rules for use in development on the [modulajs](https://www.npmjs.com/package/modulajs).
@@ -65,4 +68,14 @@ Please read our [contributing guide](CONTRIBUTING.md) for details on how to cont
 
 [npm-url]: https://www.npmjs.com/package/eslint-plugin-modulajs
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-modulajs.svg
+
+[travis-url]: https://travis-ci.org/freewheel/eslint-plugin-modulajs
+[travis-image]: https://img.shields.io/travis/freewheel/eslint-plugin-modulajs/master.svg
+
+[coverage-url]: https://coveralls.io/github/freewheel/eslint-plugin-modulajs
+[coverage-image]: https://img.shields.io/coveralls/freewheel/eslint-plugin-modulajs/master.svg
+
+[node-url]: https://nodejs.org
+[node-image]: https://img.shields.io/node/v/webpack.svg
+
 [apache-2.0]: http://img.shields.io/badge/license-Apache%20V2-blue.svg
