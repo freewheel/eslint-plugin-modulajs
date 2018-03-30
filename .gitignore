@@ -17,5 +17,9 @@ node_modules/
 # dotenv environment variables file
 .env
 
+# coverage
+/coverage
+/reports
+
 # others
 .DS_Store

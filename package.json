@@ -1,15 +1,21 @@
 {
   "name": "eslint-plugin-modulajs",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "Custom ESLint rules for modulajs",
   "main": "lib/index.js",
   "author": "eng-ui@freewheel.tv",
   "license": "Apache-2.0",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint --cache --cache-location node_modules/.cache --ext js .",
     "lint_one": "eslint",
     "precommit": "lint-staged",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "test_cov": "rimraf coverage && istanbul cover node_modules/.bin/_mocha tests/lib/rules/*.js",
+    "test_cov_min": "rimraf reports/coverage && istanbul cover --dir reports/coverage node_modules/.bin/_mocha tests/lib/rules/*.js --report lcovonly -- --reporter min",
+    "coveralls": "cat ./reports/coverage/lcov.info | coveralls"
   },
   "homepage": "https://github.com/Comcast/eslint-plugin-modulajs",
   "bugs": {
@@ -35,11 +41,14 @@
     "requireindex": "^1.1.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^0.14.3",
+    "istanbul": "^0.4.5",
     "lint-staged": "^6.0.0",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "rimraf": "^2.6.2"
   }
 }

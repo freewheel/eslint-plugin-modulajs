@@ -13,12 +13,12 @@ By default, this rule checks for the following object-types within the `propType
 
 ### Options
 
-This can be configured to forbid / warn against any valid  `propType`. In your `.eslintrc` configuration file, provide an array of object types you don't want to be allowed within the Modula `Model` Class:
+This can be configured to forbid / warn against any valid  `propType`. In your `.eslintrc` configuration file, provide an array of object types you don't want to be allowed within the ModulaJS `Model` Class:
 
 ```json
 {
   "rules": {
-    "modula/no-mutable-prop-types-in-models": ["error", ["object", "array", "arrayOf", "objectOf"]]
+    "modulajs/no-mutable-prop-types-in-models": ["error", ["object", "array", "arrayOf", "objectOf"]]
   }
 }
 ```

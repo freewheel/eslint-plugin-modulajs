@@ -36,14 +36,14 @@ Use immutable data in `payload` definition of `eventTypes/watchEventTypes` as fo
 
 ### Options
 
-This can be configured to forbid / warn against any valid  `eventType/watchEventTypes`. You can provide an array of object types you don't want to be allowed within the Modula `Model` Class in your `.eslintrc` configuration file.
+This can be configured to forbid / warn against any valid  `eventType/watchEventTypes`. You can provide an array of object types you don't want to be allowed within the ModulaJS `Model` Class in your `.eslintrc` configuration file.
 
 default value: `[ 'func', 'array', 'object', 'arrayOf', 'objectOf', 'shape' ]`
 
 ```json
 {
   "rules": {
-    "modula/no-mutable-event-types-payload-in-models": ["error", ["object", "array", "arrayOf", "objectOf"]]
+    "modulajs/no-mutable-event-types-payload-in-models": ["error", ["object", "array", "arrayOf", "objectOf"]]
   }
 }
 ```

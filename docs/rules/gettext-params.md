@@ -9,7 +9,7 @@ This rule validates that the proper arguments are provided to the `gettext` fami
 ```json
 {
   "rules": {
-    "modula/gettext-params": "error"
+    "modulajs/gettext-params": "error"
   }
 }
 ```

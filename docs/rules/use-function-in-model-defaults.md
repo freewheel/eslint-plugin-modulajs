@@ -44,7 +44,7 @@ This rule will recognize above mistake, but please note that the rule only handl
 ```json
 {
   "rules": {
-    "modula/use-function-in-model-defaults": "error"
+    "modulajs/use-function-in-model-defaults": "error"
   }
 }
 ```

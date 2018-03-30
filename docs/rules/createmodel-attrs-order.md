@@ -17,7 +17,7 @@ Below is the `.eslintrc` entry that would configure this rule to have its defaul
 ```json
 {
   "rules": {
-    "modula/createmodel-attrs-order": ["warn", {
+    "modulajs/createmodel-attrs-order": ["warn", {
       "firstPropRequired" : false, // reports first Life Cycle prop not present
       "sendRecvPairs"     : false, // enforces sequential sendFoo(), recvFoo()
       "mustHaveAnyProps"  : false, // reports createModel() or createModel([])
