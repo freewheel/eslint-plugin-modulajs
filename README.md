@@ -10,7 +10,7 @@ This plugin contains any custom eslint rules for use in development on the [modu
 
 ## Installation
 
-Prerequisites: Node.js (>=4.x), npm version 2+.
+Prerequisites: Node.js (>=6.0), npm version 3+.
 
 ```sh
 npm install --save-dev eslint eslint-plugin-modulajs
