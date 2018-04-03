@@ -78,6 +78,6 @@ Please read our [contributing guide](CONTRIBUTING.md) for details on how to cont
 [coverage-image]: https://img.shields.io/coveralls/freewheel/eslint-plugin-modulajs/master.svg
 
 [node-url]: https://nodejs.org
-[node-image]: https://img.shields.io/node/v/webpack.svg
+[node-image]: https://img.shields.io/node/v/eslint-plugin-modulajs.svg 
 
 [apache-2.0]: http://img.shields.io/badge/license-Apache%20V2-blue.svg
