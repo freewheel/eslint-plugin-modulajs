@@ -37,6 +37,8 @@ Please go to this link [createmodel-attrs-order](docs/rules/createmodel-attrs-or
 
 ### `gettext-params` <sub>Possible Errors</sub>
 
+Note: please ignore this if you are not using `gettext` as I18n solution, [in future we might move this as a separated rule](https://github.com/freewheel/eslint-plugin-modulajs/issues/3).
+
 This rule validates that the proper arguments are provided to the `gettext` family functions.
 
 Please go to this link [gettext-params](docs/rules/gettext-params.md) for more details.
