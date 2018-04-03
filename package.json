@@ -17,13 +17,13 @@
     "test_cov_min": "rimraf reports/coverage && istanbul cover --dir reports/coverage node_modules/.bin/_mocha tests/lib/rules/*.js --report lcovonly -- --reporter min",
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls"
   },
-  "homepage": "https://github.com/Comcast/eslint-plugin-modulajs",
+  "homepage": "https://github.com/freewheel/eslint-plugin-modulajs",
   "bugs": {
-    "url": "https://github.com/Comcast/eslint-plugin-modulajs/issues"
+    "url": "https://github.com/freewheel/eslint-plugin-modulajs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Comcast/eslint-plugin-modulajs.git"
+    "url": "git+https://github.com/freewheel/eslint-plugin-modulajs.git"
   },
   "keywords": [
     "eslint",
@@ -34,7 +34,7 @@
     "*.js": "lint_one"
   },
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=6.0"
   },
   "dependencies": {
     "requireindex": "^1.1.0"
