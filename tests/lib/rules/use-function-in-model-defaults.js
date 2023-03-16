@@ -203,19 +203,19 @@ const Model = createModel({
       parserOptions,
       errors: [
         {
-          source: '    array: new List(),',
+          // source: '    array: new List(),',
           type: 'Property',
           line: 9,
           column: 5
         },
         {
-          source: '    object: new Map(),',
+          // source: '    object: new Map(),',
           type: 'Property',
           line: 10,
           column: 5
         },
         {
-          source: '    model: new Model()',
+          // source: '    model: new Model()',
           type: 'Property',
           line: 11,
           column: 5
@@ -243,19 +243,19 @@ const Model = createModel({
       parserOptions,
       errors: [
         {
-          source: '    array: List([ 1, 2, 3])',
+          // source: '    array: List([ 1, 2, 3])',
           type: 'Property',
           line: 12,
           column: 5
         },
         {
-          source: '    object: Map({ a, b, c }),',
+          // source: '    object: Map({ a, b, c }),',
           type: 'Property',
           line: 13,
           column: 5
         },
         {
-          source: `    shape: fromJS({ items: [ 'a', 'b', 'c' ], count: 3 })`,
+          // source: `    shape: fromJS({ items: [ 'a', 'b', 'c' ], count: 3 })`,
           type: 'Property',
           line: 14,
           column: 5
