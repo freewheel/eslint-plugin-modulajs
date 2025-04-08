@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Deprecated along with https://github.com/freewheel/modulajs.
+
 # eslint-plugin-modulajs
 
 [![NPM version][npm-image]][npm-url]
